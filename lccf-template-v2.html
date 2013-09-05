@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>Lincoln Center</title>
+<meta content="width=device-width" name="viewport">
+<style type="text/css">
+/*<![CDATA[*/
+
+    /**
+    * @themedefinition default
+    * @title Default
+    */
+    theme.default {
+    link-color: #00AADD;
+    button-text-color: #ffffff;
+    background-color: #ffffff;
+    promo-background-color: #111111;
+    promo-headline-color: #ffffff;
+    promo-text-color: #eeeeee;
+    article-background-color: #ffffff;
+    article-headline-color: #333333;
+    article-text-color: #333333;
+    article-border-color: #00AADD;
+    separator-text-color: #aaaaaa;
+    separator-text-shadow: 0px 1px 1px #ffffff;
+    footer-background-color: #f2f2f2;
+    footer-text-color: #333333;
+    footer-links-color: #444444;
+    }
+
+    #constituents p {
+    color: #adc58f;
+    font-size: 12px;
+    }
+
+    #required p {
+    color: #00AADD;
+    font-size: 12px;
+    }
+
+    body, table#wraptable {
+        -webkit-font-smoothing:
+        antialiased;width:100% !important;
+        -webkit-text-size-adjust:none;
+        /*@theme background-color*/background-color: #FFFFFF;
+    }
+    /*
+    * @section colors
+    * @title Colors
+    */
+    a { 
+        /*@editable Link Color*//*@theme link-color*/color:#00AADD;
+        font-weight:bold;
+        text-decoration:none;
+    }
+
+    a:hover {
+        text-decoration: underline !important;
+    }
+    img {
+        display: block;
+        line-height: 0;
+        border: none;
+    }
+        a img {
+            border: none;
+        }
+    table.table {
+        padding-left:25px;
+        padding-right:25px;
+    }
+    p {
+        padding-top:0;
+        padding-bottom:0;
+        font-size:13px;
+        line-height:19px;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    .promocell {
+        /*@theme promo-background-color*/background-color:#111111;
+    }
+
+    #promoheadline p { 
+        /*@theme promo-headline-color*/color:#ffffff;
+        font-size:16px;
+        line-height:26px;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        margin-top:0;
+        margin-bottom:10px;
+        font-weight:bold;
+    }
+    .promocell {
+        /*@theme promo-text-color*/color:#eeeeee;
+        margin-top:0;
+        margin-bottom:0;
+    }
+        .promocell p {
+        /*@theme promo-text-color*/color:#eeeeee;
+        }
+        
+        .sidebar {
+        }
+        .sidebar p {
+            font-size:15px;
+            line-height:21px;
+        }
+            .sidebar .quote p {
+                padding-bottom:0;
+
+            }
+            .sidebar .quoteattribution p {
+                font-size:13px;
+                line-height:19px;
+                padding-left: 0.5em;
+            }
+            .sidebar .image p {
+                font-size:10px;
+                padding-left: 0.5em;
+            }
+        .buttons p {
+            margin-top:10px;
+            margin-bottom:0;
+            padding-bottom:0;
+            height:25px;
+        }
+        /*
+        * @section colors
+        * @title Colors
+        */
+            .buttons a {
+                /*@editable Button Background Color*//*@theme link-color*/background-color: #00AADD;
+                /*@editable Button Text Color*//*@theme button-text-color*/color: #ffffff;
+                font-size:13px;
+                line-height:19px;
+                font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+                font-weight: bold;
+                margin-right: 12px;
+                padding: 5px 8px;
+                text-decoration: none;
+                border-radius: 5px;
+            }
+
+    div.separator p {
+        margin-top:0;
+        margin-bottom:0;
+        padding-top:0;
+        padding-bottom:0;
+        /*@theme separator-text-color*/color: #aaaaaa;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        font-weight:bold;
+        font-size:16px;
+        /*@theme separator-text-shadow*/text-shadow: 0px 1px 1px #ffffff;
+    }
+    /*
+    * @section colors
+    * @title Colors
+    */
+    td.left-border {
+        /*@editable Article Left Border Color*//*@theme article-border-color*/background-color: #00AADD;
+    }
+
+    .separator p {
+        line-height:36px;
+    }
+
+    .article table {
+        /*@theme article-background-color*/background-color: #ffffff;
+        /*@theme article-text-color*/color:#333333;
+    }
+
+    .article .headline p {
+        /*@theme article-headline-color*/color:#333333;
+        font-size:16px;
+        line-height:24px;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        margin-top:0;
+        margin-bottom:10px;
+        padding-top:0;
+        padding-bottom:0;
+        font-weight:normal;
+    }
+    .article h4 a {
+        color:#444444;
+        text-decoration:none;
+    }
+    .article p, .article .main p { 
+        
+        font-weight:normal;
+    }
+        .fineprint p {
+            font-size:11px;
+            font-style:italic;
+        }
+            .fineprint p em, .fineprint p i {
+                font-style:normal !important;
+            }
+
+    #social a {
+        /*@theme footer-links-color*/color:#444;
+        font-size:12px;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        line-height:18px;
+        text-decoration:none;
+    }
+
+    #footer_wrap {
+        /*@theme footer-background-color*/background-color:#F2F2F2;
+    }
+    table.footer a {
+        /*@theme footer-links-color*/color:#444;
+        text-decoration:none;
+        font-weight:bold;
+    }
+
+    .footer p {
+        /*@theme footer-text-color*/color:#333333;
+        font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+        font-size:11px;
+        line-height:18px;
+        margin-top:0;
+        margin-bottom:0;
+        padding-top:14px
+    }
+    /*]]>*/
+    </style>
+<style type="text/css">
+/*<![CDATA[*/
+    body {
+        width: 100% !important; /*Hotmail Fix*/
+    }
+    a:hover {
+        text-decoration: underline !important;
+    }
+    /*]]>*/
+    </style>
+</head>
+<body>
+    <table border="0" cellpadding="0" cellspacing="0" id="wraptable" width="100%"><tr>
+<td id="wrapcell" width="100%">
+                <table align="center" border="0" cellpadding="0" cellspacing="0" class="table" width="640"><tr>
+<td class="cell" width="640">
+                            <div class="article twocolumn">
+                                <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td nowrap><img border="0" height="1" src="http://ashuttleworth.com/lcpa/images/pixel.gif" width="16"></td>
+
+                                        <td width="100%">
+                                            <table border="0" cellpadding="20" cellspacing="0" width="100%"><tr>
+<td>
+                                                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr valign="top">
+<td class="sidebar" width="100%">
+                                                                    <div class="quote ec_item" id="highlight">
+                                                                        <p>In appreciation of your generous support of the Lincoln Center Corporate Fund, we are pleased to offer you a special invitation to the below event.</p>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+<tr>
+<td nowrap><img border="0" height="16" src="http://ashuttleworth.com/lcpa/images/pixel.gif" width="16"></td>
+                                                            </tr>
+<tr valign="top">
+<td class="sidebar" width="100%">
+                                                                    <div class="invitation ec_item" id="image">
+                                                                        <p>Place Your Invitation Image Here</p>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+</table>
+</td>
+                                                </tr></table>
+</td>
+                                    </tr></table>
+</div>
+
+                            <div class="article" data-block-group="repeating" id="footer">
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr>
+<td nowrap><img border="0" height="1" src="http://ashuttleworth.com/lcpa/images/pixel.gif" width="16"></td>
+
+                                    <td width="100%">
+                                        <table border="0" cellpadding="20" cellspacing="0" width="100%"><tr>
+<td>
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%"><tr valign="top">
+<td class="main" width="100%">
+                                                                <div class="ec_item" id="constituents">
+                                                                    <p>The&nbsp;Chamber&nbsp;Music&nbsp;Society&nbsp;of&nbsp;Lincoln&nbsp;Center | Film&nbsp;Society&nbsp;of&nbsp;Lincoln&nbsp;Center | Jazz&nbsp;at&nbsp;Lincoln&nbsp;Center | The&nbsp;Juilliard&nbsp;School | Lincoln&nbsp;Center&nbsp;Theater | The&nbsp;Metropolitan&nbsp;Opera | New&nbsp;York&nbsp;City&nbsp;Ballet | New&nbsp;York&nbsp;Philharmonic | The&nbsp;School&nbsp;of&nbsp;American&nbsp;Ballet | Lincoln&nbsp;Center&nbsp;for&nbsp;the&nbsp;Performing&nbsp;Arts</p>
+                                                                </div>
+<img border="0" height="10" src="http://ashuttleworth.com/lcpa/images/pixel.gif" width="16"><div class="ec_item" id="required">
+                                                                    <p>Lincoln Center for the Performing Arts, 70 Lincoln Center Plaza, New York NY 10023-6583</p>
+
+                                                                    <p>t 212.875.5430&nbsp;&nbsp;&nbsp;&nbsp;f 212.875.5468&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.lccorporatefund.org/">LCCorporateFund.org</a></p>
+
+                                                                    <p>This message sent to {EMAIL}. <a href="%7BUnsubscribeURL%7D">Unsubscribe</a>, <a href="%7BManageURL%7D">update preferences</a>, or <a href="%7BForwardToFriendURL%7D">forward this message</a>.</p>
+                                                                </div>
+                                                            </td>
+                                                        </tr></table>
+</td>
+                                            </tr></table>
+</td>
+                                </tr></table>
+<img border="0" height="20" src="http://ashuttleworth.com/lcpa/images/pixel.gif" width="10">
+</div>
+                        </td>
+                    </tr></table>
+</td>
+        </tr></table>
+</body>
+</html>
