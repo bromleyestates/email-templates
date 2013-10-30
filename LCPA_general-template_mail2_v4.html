@@ -107,7 +107,7 @@ h6 a, {
 * @title Colors
 */
     a {
-        /*@editable body text link color */color: #000000;
+        /*@editable general link color */color: #000000;
     }
 
 
@@ -248,9 +248,10 @@ div.buttons p {
 * @section colors
 * @title Colors
 */
-    .buttons a, 
-    .buttons p a, 
-    #fallbackTable p a {
+    div.buttons a, 
+    div.buttons p a, 
+    div.fallbacklink a, 
+    div.fallbacklink p a {
         /*@editable fallback-tickets-learn more link color  */color: #389EEC;
         font-weight: bold;
         margin-right: 10px;
@@ -272,7 +273,7 @@ div.buttons p {
         height: 40px;     
     }
 
-.heroTable .buttontext {
+.heroTable table.buttons .buttontext {
     padding-right: 16px; 
     padding-left: 16px; 
     border-collapse: collapse; 
@@ -305,9 +306,9 @@ div.buttons p {
 * @section colors
 * @title Colors
 */
-    .heroTable .buttontext div, 
-    .heroTable .buttontext p, 
-    .heroTable .buttontext a {
+    .heroTable table.buttons .buttontext div, 
+    .heroTable table.buttons .buttontext p, 
+    .heroTable table.buttons .buttontext a {
         display: inline;
         padding: 0px;
         margin: 0px;
@@ -376,7 +377,7 @@ table td {
         <tbody>
             <tr>
                 <td>
-                    <div class="ec_item">
+                    <div class="ec_item fallbacklink">
                         <p>[Preheader text goes here]&nbsp;&nbsp;<a href="%7BPreviewURL%7D">View Online Version</a></p>
                     </div>
                 </td>
