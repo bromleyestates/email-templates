@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Lincoln Center</title>
+<meta name="viewport" content="width=device-width">
+<style type="text/css">
+	
+	/**
+	* @themedefinition default
+	* @title Default
+	*/
+	theme.default {
+	link-color: #00AADD;
+	button-text-color: #ffffff;
+	background-color: #e4e4e4;
+	promo-background-color: #111111;
+	promo-headline-color: #ffffff;
+	promo-text-color: #eeeeee;
+	article-background-color: #ffffff;
+	article-headline-color: #333333;
+	article-text-color: #555555;
+	article-border-color: #00AADD;
+	separator-text-color: #aaaaaa;
+	separator-text-shadow: 0px 1px 1px #ffffff;
+	footer-background-color: #f2f2f2;
+	footer-text-color: #555555;
+	footer-links-color: #444444;
+	}
+
+	/**
+	* @themedefinition discountix
+	* @title Atrium DiscounTix
+	*/
+	theme.atrium {
+	link-color: #FF4433;
+	button-text-color: #ffffff;
+	background-color: #e4e4e4;
+	promo-background-color: #111111;
+	promo-headline-color: #ffffff;
+	promo-text-color: #eeeeee;
+	article-background-color: #ffffff;
+	article-headline-color: #FF4433;
+	article-text-color: #555555;
+	article-border-color: #FF4433;
+	separator-text-color: #aaaaaa;
+	separator-text-shadow: 0px 1px 1px #ffffff;
+	footer-background-color: #f2f2f2;
+	footer-text-color: #555555;
+	footer-links-color: #444444;
+	}
+
+	/**
+	* @themedefinition lcf2012
+	* @title Lincoln Center Festival 2012
+	*/
+	theme.lcf2012 {
+	link-color: #CC1111;
+	button-text-color: #ffffff;
+	background-color: #e4e4e4;
+	promo-background-color: #111111;
+	promo-headline-color: #ffffff;
+	promo-text-color: #eeeeee;
+	article-background-color: #ffffff;
+	article-headline-color: #333333;
+	article-text-color: #555555;
+	article-border-color: #CC1111;
+	separator-text-color: #aaaaaa;
+	separator-text-color: #aaaaaa;
+	separator-text-shadow: 0px 1px 1px #ffffff;
+	footer-background-color: #f2f2f2;
+	footer-text-color: #555555;
+	footer-links-color: #444444;
+	}
+
+	/**
+	* @themedefinition gp1213
+	* @title Great Performers 2012/13
+	*/
+	theme.gp1213 {
+	link-color: #CCAA44;
+	button-text-color: #ffffff;
+	background-color: #e4e4e4;
+	promo-background-color: #111111;
+	promo-headline-color: #ffffff;
+	promo-text-color: #eeeeee;
+	article-background-color: #ffffff;
+	article-headline-color: #333333;
+	article-text-color: #555555;
+	article-border-color: #CCAA44;
+	separator-text-color: #aaaaaa;
+	separator-text-color: #aaaaaa;
+	separator-text-shadow: 0px 1px 1px #ffffff;
+	footer-background-color: #f2f2f2;
+	footer-text-color: #555555;
+	footer-links-color: #444444;
+	}
+
+	/**
+	* @themedefinition mmf2012
+	* @title Mostly Mozart Festival 2012
+	*/
+	theme.mmf2012 {
+	link-color: #777722;
+	button-text-color: #ffffff;
+	background-color: #e4e4e4;
+	promo-background-color: #111111;
+	promo-headline-color: #ffffff;
+	promo-text-color: #eeeeee;
+	article-background-color: #ffffff;
+	article-headline-color: #333333;
+	article-text-color: #555555;
+	article-border-color: #EEBB33;
+	separator-text-color: #aaaaaa;
+	separator-text-shadow: 0px 1px 1px #ffffff;
+	footer-background-color: #f2f2f2;
+	footer-text-color: #555555;
+	footer-links-color: #444444;
+	}
+	
+	/**
+	* @themedefinition wlf2012
+	* @title White Light Festival 2012
+	*/
+	theme.wlf2012 {
+	link-color: #FFCC66;
+	button-text-color: #000000;
+	background-color: #0a0a0a;
+	promo-background-color: #222222;
+	promo-headline-color: #FFCC66;
+	promo-text-color: #FFFFCC;
+	article-background-color: #222222;
+	article-headline-color: #FFCC66;
+	article-text-color: #FFFFCC;
+	article-border-color: #444444;
+	separator-text-color: #444444;
+	separator-text-shadow: 0px 1px 1px #000000;
+	footer-background-color: #222222;
+	footer-text-color: #666666;
+	footer-links-color: #999999;
+	}
+	
+	body, table#wraptable {
+		-webkit-font-smoothing:
+		antialiased;width:100% !important;
+		-webkit-text-size-adjust:none;
+		/*@theme background-color*/background-color: #E4E4E4;
+	}
+	/*
+	* @section colors
+	* @title Colors
+	*/
+	a { 
+		/*@editable Link Color*//*@theme link-color*/color:#00AADD;
+		font-weight:bold;
+		text-decoration:none;
+	}
+	
+	a:hover {
+		text-decoration: underline !important;
+	}
+	img {
+		display: block;
+		line-height: 0;
+		border: none;
+	}
+		a img {
+			border: none;
+		}
+	table.table {
+		padding-left:25px;
+		padding-right:25px;
+	}
+	p {
+	padding-top:0;
+	padding-bottom:0;
+	font-size:12px;
+	line-height:19px;
+	font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+	margin-top:0;
+	}
+
+	.promocell {
+		/*@theme promo-background-color*/background-color:#ffffff;
+	}
+
+	#promoheadline p { 
+		/*@theme promo-headline-color*/color:#ffffff;
+		font-size:16px;
+		line-height:26px;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		margin-top:0;
+		margin-bottom:10px;
+		font-weight:bold;
+	}
+	.promocell {
+		/*@theme promo-text-color*/color:#000000;
+		margin-top:0;
+		margin-bottom:0;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		font-size:11px;
+		line-height:18px;
+
+	}
+	.pr_contact {
+	/*@theme promo-text-color*/color:#000000;
+	margin-top:0;
+	margin-bottom:0;
+	font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size:12px;
+	line-height:18px;
+	background-color:#f2f2f2;
+	border-radius: 10px;
+	padding:15px;
+	width:180px;
+	}
+
+	.promocell a {
+		color:#00AADD;
+		text-decoration:none;
+	}
+		.promocell p {
+		/*@theme promo-text-color*/color:#000000;
+		}
+		
+		.sidebar {
+		}
+		.sidebar p {
+			font-size:16px;
+			line-height:22px;
+		}
+			.sidebar .quote p {
+				padding-bottom:0;
+				text-indent: -0.5em;
+				padding-left: 0.5em;
+			}
+			.sidebar .quoteattribution p {
+				font-size:13px;
+				line-height:19px;
+				padding-left: 0.5em;
+			}
+			.sidebar .image p {
+				font-size:10px;
+				padding-left: 0.5em;
+			}
+		.buttons p {
+			margin-top:10px;
+			margin-bottom:0;
+			padding-bottom:0;
+			height:25px;
+		}
+		/*
+		* @section colors
+		* @title Colors
+		*/
+			.buttons a {
+				/*@editable Button Background Color*//*@theme link-color*/background-color: #00AADD;
+				/*@editable Button Text Color*//*@theme button-text-color*/color: #ffffff;
+				font-size:12px;
+				line-height:19px;
+				font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+				font-weight: bold;
+				margin-right: 8px;
+				padding: 5px 8px;
+				text-decoration: none;
+				border-radius: 5px;
+			}
+
+	div.separator p {
+		margin-top:0;
+		margin-bottom:0;
+		padding-top:0;
+		padding-bottom:0;
+		/*@theme separator-text-color*/color: #aaaaaa;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		font-weight:bold;
+		font-size:16px;
+		/*@theme separator-text-shadow*/text-shadow: 0px 1px 1px #ffffff;
+	}
+	/*
+	* @section colors
+	* @title Colors
+	*/
+	td.left-border {
+		/*@editable Article Left Border Color*//*@theme article-border-color*/background-color: #00AADD;
+	}
+
+	.separator p {
+		line-height:36px;
+	}
+
+	.article table {
+		/*@theme article-background-color*/background-color: #ffffff;
+		/*@theme article-text-color*/color:#555555;
+	}
+
+	.article .headline p {
+		/*@theme article-headline-color*/color:#333333;
+		font-size:16px;
+		line-height:24px;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		margin-top:0;
+		margin-bottom:10px;
+		padding-top:0;
+		padding-bottom:0;
+		font-weight:normal;
+	}
+	.article h4 a {
+		color:#444444;
+		text-decoration:none;
+	}
+	.article p, .article .main p { 
+		
+		font-weight:normal;
+	}
+		.fineprint p {
+			font-size:11px;
+			font-style:italic;
+		}
+			.fineprint p em, .fineprint p i {
+				font-style:normal !important;
+			}
+
+	#social a {
+		/*@theme footer-links-color*/color:#444;
+		font-size:12px;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		line-height:18px;
+		text-decoration:none;
+	}
+
+	#footer_wrap {
+		/*@theme footer-background-color*/background-color:#F2F2F2;
+	}
+	table.footer a {
+		/*@theme footer-links-color*/color:#444;
+		text-decoration:none;
+		font-weight:bold;
+	}
+	
+	.footer p,div {
+		/*@theme footer-text-color*/color:#555555;
+		font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;
+		font-size:11px;
+		line-height:18px;
+		margin-top:0;
+		margin-bottom:0;
+		/* padding-top:14px */
+	}
+	.contentTable {
+		border: 1px;
+		border-style:solid;
+		border-color:#808080;
+	}
+</style>
+<style data="noinline">
+	body {
+		width: 100% !important; /*Hotmail Fix*/
+	}
+	a:hover {
+		text-decoration: underline !important;
+	}
+</style>
+</head>
+<body topmargin="0" leftmargin="0" marginheight="0" marginwidth="0">
+<!-- 100% Width Wrapper Table -->
+<table width="100%" cellpadding="0" cellspacing="0" border="0" id="wraptable"><tr>
+<td id="wrapcell" width="100%">
+			<!-- 600px Width Wrapper Table -->
+			<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="table"><tr>
+<td width="600" class="cell">
+						<!-- Main Content Table -->
+						<table width="600" cellpadding="0" cellspacing="0" border="0" class="contentTable">
+<tr>
+<td class="promocell ec_item" style="padding:10px; padding-left:20px;">
+<strong>Lincoln Center Press Release</strong><br><a href="http://aboutlincolncenter.org/press-room">Visit Lincoln Center Press Room for releases, photos and videos</a>
+</td>
+					  	  </tr>
+<tr>
+<td width="100%" class="promocell ec_item">
+								 	<a href="http://aboutlincolncenter.org/press-room"><img border="0" src="http://images.skem1.com/client_id_14737/PR/9917_PR_email_header.jpg" id="series_header" width="600" height="120" name="series_header"></a>
+								</td>
+							</tr>
+<tr>
+<td style="background-color:#fff;color:#000">
+                                	<table width="100%" cellpadding="20" cellspacing="0" border="0"><tr valign="top"><td>
+                                   		<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tr valign="top">
+<td class="ec_item" id="pr_title2" style="text-align:left; font-weight:normal; font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;font-size:12px;padding-bottom:15px;"></td>
+                               		      </tr>
+<tr valign="top">
+<td class="ec_item" id="pr_title" style="text-align:center; font-weight:bold; font-family:'Helvetica Neue',Arial,Helvetica,sans-serif;font-size:14px;">
+                                            	<em>GREAT PERFORMERS</em> PRESENTS THE LOS ANGELES PHILHARMONIC<br>
+AND MUSIC DIRECTOR GUSTAVO DUDAMEL<br>
+AT AVERY FISHER HALL, MARCH 27&ndash;28, 2013<br><br>
+ 
+New York Premiere of John Adams&rsquo;s Passion Oratorio<br><em>The Gospel According To The Other Mary</em>,<br>
+Directed By Peter Sellars, March 27<br><br>
+ 
+Second New York Concert To Feature Works By<br>
+Vivier, Debussy and Stravinsky, March 28<br><br>
+</td>
+                                        </tr>
+<tr valign="top">
+<td class="ec_item" id="pr_body" style="text-align:left; font-weight:normal; font-family:'Helvetica Neue',Arial,Helvetica,sans-serif; font-size:12px;">
+                                           	  <img align="right" style="padding-left:10px;" border="0" src="http://placehold.it/150x150/000/fff" class="ec_img" id="pr_thumb" width="150" height="150"><p>February 12, 2013 &mdash; The acclaimed Los Angeles Philharmonic and its dynamic music director, Gustavo Dudamel, return to New York for the first time since 2010 for two concerts at Avery Fisher Hall, as part of Lincoln Center&rsquo;s&nbsp;<em>Great Performers</em>&nbsp;-series, March 27 and 28, 2013. Maestro Dudamel and the Orchestra arrive at Lincoln Center with two adventurous programs of 20th and 21st century music which showcases the ensemble&rsquo;s place as one of the world&rsquo;s most forward-thinking orchestras, including the New York premiere of a co-commissioned work by the eminent American composer John Adams.</p>
+                                                <p>The Los Angeles Philharmonic&rsquo;s first concert features the New York premiere of&nbsp;<em>The Gospel According to the Other Mary</em>, a large-scale, full-evening work by the Orchestra&rsquo;s Creative Chair John Adams. The oratorio for orchestra, chorus and soloists features a libretto by frequent Adams collaborator Peter Sellars, based on the New Testament stories of Lazarus and Jesus&rsquo;s Passion, as well as contemporary texts by Latin-, Native- and African-American writers. The result is a fresh approach to the Biblical story, similar to the successful modern telling of the nativity oratorio in Adams and Sellars&rsquo;s&nbsp;<em>El Ni&ntilde;o</em>, for which this is a companion piece. Peter Sellars will direct these staged performances, along with a cast featuring Kelley O&rsquo;Connor as Mary Magdalene; Tamara Mumford as Martha; Russell Thomas as Lazarus; countertenors Daniel Bubeck, Brian Cummings and Nathan Medley as narrators; Michael Schumacher, Anani Sanouvi and Troy Ogilvie as dancers; along with Los Angeles Master Chorale and their music director Grant Gershon. Following the performance, Ara Guzelimian, Provost and Dean of The Juilliard School, will moderate a post-concert discussion about the work with John Adams and Peter Sellars on the stage of Avery Fisher Hall.</p>
+                                                <!-- <div class="buttons">
+                                                    <br><a href="#">Read full press release</a>
+                                                </div> -->
+                                                <div class="buttons">
+<p>
+                                                    <a href="#" style="border-radius:5px; background-color:#00AADD">&nbsp;Read full press release&nbsp;</a>&nbsp;&nbsp;<a href="http://aboutlincolncenter.org/press-room">&nbsp;Visit Lincoln Center Press Room&nbsp;</a></p>
+                                                </div>
+<br><table width="200" cellpadding="5" cellspacing="0" border="0"><tr>
+<td class="pr_contact" style="background-color:#f2f2f2; border-radius:10px; width:200px; padding:10px">
+                                                	<strong>Press Contact</strong>:<br> Eric M. Gewirtz<br>
+													212-875-5049<br><a href="mailto:egewirtz@lincolncenter.org">egewirtz@lincolncenter.org</a>
+</td>    
+                                                    </tr></table>
+</td>
+                                        </tr>
+</table>
+</td></tr></table>
+</td>
+							</tr>
+<!-- Footer row --><!-- <tr>
+								<td class="ec_item" id="footer">
+									<table width="600" cellpadding="0" cellspacing="0" border="0">
+										<tr>
+											<td width="205" valign="top">
+												<a href="http://lc.lincolncenter.org/"><img border="0" src="http://ashuttleworth.com/lcpa/images/logo-bottom.gif" class="ec_img" id="footer_logo_bottom" alt="Lincoln Center"></a>
+											</td>
+											<td width="395" valign="top">
+												<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="padding-top:25px;padding-left:20px">
+													<tr>
+														<td class="ec_item" id="socialcell">
+															<table width="100%" cellpadding="0" cellspacing="2" border="0" align="center" id="social">
+																<tr>
+																	<td>
+																		<a href="http://facebook.com/LincolnCenterNYC"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_facebook.png" width="16" height="16" border="0"></a>
+																	</td>
+																	<td>
+																		<a href="http://facebook.com/LincolnCenterNYC">Facebook</a>
+																	</td>
+																	<td>
+																		<a href="http://twitter.com/LincolnCenter"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_twitter.png" width="16" height="16" border="0"></a>
+																	</td>
+																	<td>
+																		<a href="http://twitter.com/LincolnCenter">Twitter</a>
+																	</td>
+																	<td>
+																		<a href="http://lincolncenter.tumblr.com"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_tumblr.png" width="16" height="16" border="0"></a>
+																	</td>
+																	<td>
+																		<a href="http://lincolncenter.tumblr.com">Tumblr</a>
+																	</td>
+																	<td>
+																		<a href="%7BForwardToFriendURL%7D"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_mail.png" width="16" height="16" border="0"></a>
+																	</td>
+																	<td>
+																		<a href="%7BForwardToFriendURL%7D">Forward This</a>
+																	</td>
+																</tr>
+															</table>
+														</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr> --><!-- End of footer row -->
+</table>
+</td>
+				</tr></table>
+</td>
+	</tr></table>
+<!-- Wide footer table --><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+<td>
+			<table width="600" cellpadding="0" cellspacing="0" border="0" align="center"><tr>
+<td width="600" nowrap class="cell" style="padding-top:15px;">
+<a href="http://lc.lincolncenter.org/">
+						<img border="0" src="http://ashuttleworth.com/lcpa/images/logo-top.gif" class="ec_img" id="footer_logo_top" width="178" height="20"></a>
+					</td>
+				</tr></table>
+</td>
+	</tr></table>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" id="footer_wrap"><tr>
+<td>
+			<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="table"><tr>
+<td width="600" nowrap class="cell">
+							<table width="600" cellpadding="0" cellspacing="0" border="0"><tr>
+<td width="205" valign="top"><a href="http://lc.lincolncenter.org/"><img border="0" src="http://ashuttleworth.com/lcpa/images/logo-bottom.gif" class="ec_img" id="footer_logo_bottom" alt="Lincoln Center" width="178" height="39"></a></td>
+								<td width="395" valign="top">
+									<table width="100%" cellpadding="0" cellspacing="0" border="0" align="center" style="padding-top:25px;padding-left:20px"><tr>
+<td class="ec_item" id="socialcell">
+												<table width="100%" cellpadding="0" cellspacing="2" border="0" align="center" id="social"><tr>
+<td>
+<a href="http://facebook.com/LincolnCenterNYC">
+															<img src="http://www.lincolncenter.org/images/email/mail2/footer_social_facebook.png" width="16" height="16" border="0"></a>
+														</td>
+														<td>
+															<a href="http://facebook.com/LincolnCenterNYC">Facebook</a>
+														</td>
+														<td>
+															<a href="http://twitter.com/LincolnCenter"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_twitter.png" width="16" height="16" border="0"></a>
+														</td>
+														<td>
+															<a href="http://twitter.com/LincolnCenter">Twitter</a>
+														</td>
+														<td>
+															<a href="http://lincolncenter.tumblr.com"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_tumblr.png" width="16" height="16" border="0"></a>
+														</td>
+														<td>
+															<a href="http://lincolncenter.tumblr.com">Tumblr</a>
+														</td>
+														<td>
+															<a href="%7BForwardToFriendURL%7D"><img src="http://www.lincolncenter.org/images/email/mail2/footer_social_mail.png" width="16" height="16" border="0"></a>
+														</td>
+														<td>
+															<a href="%7BForwardToFriendURL%7D">Forward This</a>
+														</td>
+													</tr></table>
+</td>
+										</tr></table>
+</td>
+							</tr></table>
+<table width="600" cellpadding="0" cellspacing="0" border="0" align="center" class="footer"><tr valign="top">
+<td width="205" class="ec_item" id="footer_address">
+									<div class="footer">
+									<a href="http://lc.lincolncenter.org">Public Relations</a><br>
+                                    70 Lincoln Center Plaza<br>
+									New York, NY 10023<br><a href="http://www.aboutlincolncenter.org">AboutLincolnCenter.org</a>
+</div>								</td>
+
+								<td width="395" class="footer">
+									<table width="395" cellpadding="0" cellspacing="0" border="0" align="center" style="padding-left:20px">
+<tr>
+<td>&nbsp;</td>
+                                        </tr>
+<tr>
+<td style="padding-top:12px;" class="ec_item" id="footer_sentto" width="395">
+                                                <p>Sent to {first_name} {last_name} ({EMAIL}).<br>Not interested? <a href="%7BManageURL%7D">Update&nbsp;your&nbsp;preferences</a> or <a href="%7BUnsubscribeURL%7D">unsubscribe</a>.</p>
+                                            </td>
+                                        </tr>
+</table>
+</td>
+							</tr></table>
+</td>
+				</tr></table>
+<!-- End of wide footer table -->
+</td>
+	</tr></table>
+<div style="display:none;">{COMPANY_ADDRESS}</div>
+</body>
+</html>
